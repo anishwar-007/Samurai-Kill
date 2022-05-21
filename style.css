@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+.main_div {
+  position: relative;
+  display: inline-block;
+}
+
+.top_bar {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.health {
+  background-color: yellow;
+  height: 30px;
+  width: 100%;
+}
+
+.timer {
+  background-color: grey;
+  height: 50px;
+  width: 100px;
+  flex-shrink: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+}
+
+.result {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
